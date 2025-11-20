@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Live Chat API</title>
+</head>
+<body>
+    <h1>Test Live Chat API</h1>
+    <button onclick="testGet()">Test GET /api/config/livechat</button>
+    <button onclick="testPut()">Test PUT /api/config/livechat</button>
+    <div id="result"></div>
+    
+    <script>
+        const apiBase = 'http://localhost:3001';
+        
+        async function testGet() {
+            try {
+                const response = await fetch(`${apiBase}/api/config/livechat`);
+                const data = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h3>GET Response:</h3>
+                    <p>Status: ${response.status}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <h3>GET Error:</h3>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+        
+        async function testPut() {
+            try {
+                const response = await fetch(`${apiBase}/api/config/livechat`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        liveChatCode: 'test code',
+                        liveChatProvider: 'smartsupp',
+                        isEnabled: true
+                    })
+                });
+                const data = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h3>PUT Response:</h3>
+                    <p>Status: ${response.status}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <h3>PUT Error:</h3>
+                    <p>${error.message}</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

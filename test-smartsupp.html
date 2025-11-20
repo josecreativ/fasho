@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Smartsupp</title>
+</head>
+<body>
+    <h1>Test Smartsupp Integration</h1>
+    <button onclick="openChat()">Open Smartsupp Chat</button>
+    
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = 'YOUR_SMARTSUPP_KEY';
+        window.smartsupp||(function(d) {
+          var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+          s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+          c.type='text/javascript';c.charset='utf-8';c.async=true;
+          c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+        
+        function openChat() {
+            console.log('Trying to open Smartsupp chat...');
+            if (window.smartsupp && typeof window.smartsupp === 'function') {
+                console.log('Smartsupp found, opening chat');
+                window.smartsupp('chat:open');
+            } else {
+                console.log('Smartsupp not found');
+                alert('Smartsupp not loaded yet. Please wait a moment and try again.');
+            }
+        }
+        
+        // Wait for Smartsupp to load
+        setTimeout(() => {
+            console.log('Checking Smartsupp after 3 seconds...');
+            if (window.smartsupp) {
+                console.log('Smartsupp is available');
+            } else {
+                console.log('Smartsupp is not available');
+            }
+        }, 3000);
+    </script>
+</body>
+</html>

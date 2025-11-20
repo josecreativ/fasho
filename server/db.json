@@ -1,0 +1,831 @@
+{
+  "products": [
+    {
+      "id": 1751557637944,
+      "name": "fine",
+      "category": "suit for men",
+      "description": "perfect",
+      "price": 900,
+      "originalPrice": 1200,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "gray",
+          "value": "#b1aaaa",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1752664045452.png"
+            }
+          ]
+        },
+        {
+          "name": "blue",
+          "value": "#406abf",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1752664045463.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1751557761427,
+      "name": "beauty",
+      "category": "WEDDING SUITE",
+      "description": "good",
+      "price": 50000,
+      "originalPrice": 90000,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "violet",
+          "value": "#a743cb",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1751557761397.jpg"
+            }
+          ]
+        },
+        {
+          "name": "nude color",
+          "value": "#e5c7ca",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1751557761402.jpg"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1751559350175,
+      "name": "live",
+      "category": "JEANS",
+      "description": "fine",
+      "price": 100,
+      "originalPrice": 500,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "chocolate brown",
+          "value": "#6e4949",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1751559350109.jpg"
+            }
+          ]
+        },
+        {
+          "name": "black",
+          "value": "#000000",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1751559350155.jpg"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1751636271476,
+      "name": "long gown",
+      "category": "DRESSES",
+      "description": "beautiful",
+      "price": 300,
+      "originalPrice": 600,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "light brown",
+          "value": "#ff8080",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1751636271465.png"
+            }
+          ]
+        },
+        {
+          "name": "dark brown",
+          "value": "#804040",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1751636271469.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1752664739123,
+      "name": "clothes",
+      "category": "children clothes",
+      "description": "beautiful gown",
+      "price": 300,
+      "originalPrice": 800,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "light green",
+          "value": "#097b1c",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1752664739109.png"
+            }
+          ]
+        },
+        {
+          "name": "dark green",
+          "value": "#06560f",
+          "images": [
+            {
+              "type": "front",
+              "url": "/uploads/1752664739117.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1753096283222,
+      "name": "children clothes",
+      "category": "JUMPSUITS & ROMPERS",
+      "description": "girl child jump suit wears",
+      "price": 600,
+      "originalPrice": 10000,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "light pink",
+          "value": "#ee9bb0",
+          "images": [
+            {
+              "url": "/uploads/1753096283196.png"
+            }
+          ]
+        },
+        {
+          "name": " light blue",
+          "value": "#4d81d5",
+          "images": [
+            {
+              "url": "/uploads/1753096283207.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1753096715376,
+      "name": "young boy clothes",
+      "category": "TOPS",
+      "description": "for young boys",
+      "price": 700,
+      "originalPrice": 20000,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "green",
+          "value": "#3aa159",
+          "images": [
+            {
+              "url": "/uploads/1753096715365.png"
+            }
+          ]
+        },
+        {
+          "name": "brown",
+          "value": "#a37575",
+          "images": [
+            {
+              "url": "/uploads/1753096715370.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1753097749592,
+      "name": "handsome men wears",
+      "category": "SALE",
+      "description": "men t-shirt",
+      "price": 200,
+      "originalPrice": 400,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "dark green",
+          "value": "#165106",
+          "images": [
+            {
+              "url": "/uploads/1753097749550.png"
+            }
+          ]
+        },
+        {
+          "name": "light blue",
+          "value": "#3c96b4",
+          "images": [
+            {
+              "url": "/uploads/1753097749560.png"
+            }
+          ]
+        },
+        {
+          "name": "purple",
+          "value": "#ce69e2",
+          "images": [
+            {
+              "url": "/uploads/1753097749566.png"
+            }
+          ]
+        },
+        {
+          "name": "cream",
+          "value": "#b1a5a5",
+          "images": [
+            {
+              "url": "/uploads/1753097749581.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1753099679899,
+      "name": "naival",
+      "category": "LINGERIE & SLEEP",
+      "description": "sexy damsel",
+      "price": 500,
+      "originalPrice": 800,
+      "isOutOfStock": false,
+      "colors": [
+        {
+          "name": "black",
+          "value": "#000000",
+          "images": [
+            {
+              "url": "/uploads/1753099679845.png"
+            }
+          ]
+        },
+        {
+          "name": "green",
+          "value": "#0f5c0a",
+          "images": [
+            {
+              "url": "/uploads/1753099679852.png"
+            }
+          ]
+        },
+        {
+          "name": "purple",
+          "value": "#923399",
+          "images": [
+            {
+              "url": "/uploads/1753099679858.png"
+            }
+          ]
+        },
+        {
+          "name": "dark pink",
+          "value": "#bf4073",
+          "images": [
+            {
+              "url": "/uploads/1753099679866.png"
+            }
+          ]
+        },
+        {
+          "name": "sky blue",
+          "value": "#addaf5",
+          "images": [
+            {
+              "url": "/uploads/1753099679873.png"
+            }
+          ]
+        },
+        {
+          "name": "orange",
+          "value": "#a86315",
+          "images": [
+            {
+              "url": "/uploads/1753099679876.png"
+            }
+          ]
+        },
+        {
+          "name": "violet",
+          "value": "#8d65d7",
+          "images": [
+            {
+              "url": "/uploads/1753099679879.png"
+            }
+          ]
+        },
+        {
+          "name": "red",
+          "value": "#ea3939",
+          "images": [
+            {
+              "url": "/uploads/1753099679887.png"
+            }
+          ]
+        },
+        {
+          "name": "cream",
+          "value": "#e6d78f",
+          "images": [
+            {
+              "url": "/uploads/1753099679896.png"
+            }
+          ]
+        }
+      ],
+      "showOnHomePage": true
+    },
+    {
+      "id": 1753103421276,
+      "name": "barbie gown",
+      "category": "WOMEN",
+      "subCategory": "bridal gown",
+      "description": "beautiful",
+      "price": 500,
+      "originalPrice": 700,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "white",
+          "value": "#f5efef",
+          "images": [
+            {
+              "url": "/uploads/1753103421259.png"
+            }
+          ]
+        },
+        {
+          "name": "red",
+          "value": "#d03e3e",
+          "images": [
+            {
+              "url": "/uploads/1753103421273.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753114520657,
+      "name": "pretty children swim wears",
+      "category": "KIDS",
+      "subCategory": "little girls shoe",
+      "description": "beautiful",
+      "price": 400,
+      "originalPrice": 600,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "pink",
+          "value": "#d75bbc",
+          "images": [
+            {
+              "url": "/uploads/1753114520626.png"
+            }
+          ]
+        },
+        {
+          "name": "gray",
+          "value": "#d7cccc",
+          "images": [
+            {
+              "url": "/uploads/1753114520632.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753115103321,
+      "name": "pretty girls jacket",
+      "category": "KIDS",
+      "subCategory": "kids jacket",
+      "description": "for beautiful little girls to wear",
+      "price": 300,
+      "originalPrice": 600,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "black",
+          "value": "#000000",
+          "images": [
+            {
+              "url": "/uploads/1753115103268.png"
+            }
+          ]
+        },
+        {
+          "name": "blue",
+          "value": "#3836ab",
+          "images": [
+            {
+              "url": "/uploads/1753115103280.png"
+            }
+          ]
+        },
+        {
+          "name": "brown",
+          "value": "#756161",
+          "images": [
+            {
+              "url": "/uploads/1753115103305.png"
+            }
+          ]
+        },
+        {
+          "name": "gray",
+          "value": "#b1a9a9",
+          "images": [
+            {
+              "url": "/uploads/1753115103309.png"
+            }
+          ]
+        },
+        {
+          "name": "light purple",
+          "value": "#92688f",
+          "images": [
+            {
+              "url": "/uploads/1753115103314.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753179654303,
+      "name": "lingerie wear",
+      "category": "CURVE",
+      "subCategory": "lingerie & sleep",
+      "description": "beautiful and sexy",
+      "price": 30,
+      "originalPrice": 600,
+      "isOutOfStock": false,
+      "showOnHomePage": false,
+      "colors": [
+        {
+          "name": "gray",
+          "value": "#aba0a0",
+          "images": [
+            {
+              "url": "/uploads/1753179654281.png"
+            }
+          ]
+        },
+        {
+          "name": "brown",
+          "value": "#916e6e",
+          "images": [
+            {
+              "url": "/uploads/1753179654282.png"
+            }
+          ]
+        },
+        {
+          "name": "nude ",
+          "value": "#ddb6b6",
+          "images": [
+            {
+              "url": "/uploads/1753179654291.png"
+            }
+          ]
+        },
+        {
+          "name": "light gray",
+          "value": "#f0e5e5",
+          "images": [
+            {
+              "url": "/uploads/1753179654292.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753180265033,
+      "name": "handsome fine men wear",
+      "category": "MEN",
+      "subCategory": "tops",
+      "description": "nice men top",
+      "price": 669,
+      "originalPrice": 800,
+      "isOutOfStock": false,
+      "showOnHomePage": false,
+      "colors": [
+        {
+          "name": "nude",
+          "value": "#bbaaaa",
+          "images": [
+            {
+              "url": "/uploads/1753180265016.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753180933183,
+      "name": "beauty make-over",
+      "category": "BEAUTY",
+      "subCategory": "make-up sets",
+      "description": "make power",
+      "price": 800,
+      "originalPrice": 6000,
+      "isOutOfStock": false,
+      "showOnHomePage": false,
+      "colors": [
+        {
+          "name": "",
+          "value": "#3c2a2a",
+          "images": [
+            {
+              "url": "/uploads/1753180933165.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753697108581,
+      "name": "kids short",
+      "category": "KIDS",
+      "subCategory": "kids jacket",
+      "description": "beautiful wear",
+      "price": 400,
+      "originalPrice": 800,
+      "isOutOfStock": false,
+      "showOnHomePage": false,
+      "colors": [
+        {
+          "name": "nude",
+          "value": "#b9a6a6",
+          "images": [
+            {
+              "url": "/uploads/1753697108564.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753700441901,
+      "name": "queens wedding gown ontrails",
+      "category": "WOMEN",
+      "subCategory": "bridal gown",
+      "description": "beautiful wedding trails",
+      "price": 700,
+      "originalPrice": 77000,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "white",
+          "value": "#f5f5f5",
+          "images": [
+            {
+              "url": "/uploads/1753700586773.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1753701297302,
+      "name": "baby  girl  gown",
+      "category": "CURVE",
+      "subCategory": "lingerie & sleep",
+      "description": "beautiful  gown",
+      "price": 3900,
+      "originalPrice": 89000,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "white",
+          "value": "#ede8e8",
+          "images": [
+            {
+              "url": "/uploads/1753701712618.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1754470999884,
+      "name": "Level You Up Cargo Bermuda Short",
+      "category": "WOMEN",
+      "subCategory": "bridal gown",
+      "description": "\r\nLevel You Up Cargo Bermuda Short - Olive/combo",
+      "price": 23.99,
+      "originalPrice": 33.98,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "green",
+          "value": "#055713",
+          "images": [
+            {
+              "url": "/uploads/1754470999864.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1754474788067,
+      "name": "Elena Crochet Maxi Dress",
+      "category": "WOMEN",
+      "subCategory": "normal gown",
+      "description": "Product Details\r\nAvailable In Black/White, Cream, Mustard/combo And Olive.\r\nCrochet Maxi Dress\r\nCrew Neck\r\nShort Sleeve\r\nFront Pockets\r\nContrast Trim\r\nStretch\r\n70% Viscose 30% Nylon\r\nLining: 100% Polyester\r\nImported",
+      "price": 30.99,
+      "originalPrice": 44.98,
+      "isOutOfStock": false,
+      "showOnHomePage": true,
+      "colors": [
+        {
+          "name": "cream",
+          "value": "#f4f2cd",
+          "images": [
+            {
+              "url": "/uploads/1754474788048.png"
+            }
+          ]
+        },
+        {
+          "name": "yellow",
+          "value": "#d9dc2e",
+          "images": [
+            {
+              "url": "/uploads/1754474788052.png"
+            }
+          ]
+        },
+        {
+          "name": "olive green",
+          "value": "#096721",
+          "images": [
+            {
+              "url": "/uploads/1754474788060.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": {
+    "WOMEN": {
+      "sub": [
+        "bridal gown",
+        "normal gown"
+      ]
+    },
+    "CURVE": {
+      "sub": [
+        "lingerie & sleep"
+      ]
+    },
+    "MEN": {
+      "sub": [
+        "suit",
+        "tops",
+        "jeans trouser"
+      ]
+    },
+    "KIDS": {
+      "sub": [
+        "little girls shoe",
+        "kids jacket"
+      ]
+    },
+    "BEAUTY": {
+      "sub": [
+        "make-up sets"
+      ]
+    }
+  },
+  "kidsPage": {
+    "bannerImage": "/uploads/1751459000528.png",
+    "saleMessage": "4TH OF JULY SALE UP TO 90% OFF SITEWIDE",
+    "buttonText": "SHOP NOW",
+    "buttonLink": "/kids"
+  },
+  "banners": {
+    "WOMEN": "/uploads/1751460314248.png",
+    "CURVE": "/uploads/1751461632364.png",
+    "MEN": "/uploads/1751460334536.png",
+    "KIDS": "/uploads/1751460346887.png",
+    "BEAUTY": "/uploads/1e51460357910.png"
+  },
+  "brands": [
+    {
+      "label": "WOMEN",
+      "image": "",
+      "link": "/women"
+    },
+    {
+      "label": "CURVE",
+      "image": "",
+      "link": "/curve"
+    },
+    {
+      "label": "MEN",
+      "image": "",
+      "link": "/men"
+    },
+    {
+      "label": "KIDS",
+      "image": "",
+      "link": "/kids"
+    },
+    {
+      "label": "BEAUTY",
+      "image": "",
+      "link": "/beauty"
+    }
+  ],
+  "users": [
+    {
+      "id": "1759231559374",
+      "username": "josephine josephineilenre7@gmail.com",
+      "email": "josephineilenre7@gmail.com",
+      "createdAt": "2025-09-30T11:25:59.374Z"
+    }
+  ],
+  "config": {
+    "payment": {
+      "flutterwavePublicKey": "FLWPUBK_TEST-67a842dc96ae09b0583819c5af558d70-X",
+      "flutterwaveSecretKey": "FLWSECK_TEST-5b3650a8af40c15a0976843d7e5452a7-X",
+      "flutterwaveWebhookSecret": "",
+      "paystackPublicKey": "pk_test_aa1466d6f68f194b24bc1758014ac1beb8f7b8cc",
+      "paystackSecretKey": "sk_test_e3f6013e08f858b02cdf2eb90a6ff4529ce5ed08"
+    },
+    "livechat": {
+      "liveChatCode": "<!-- Smartsupp Live Chat script -->\n<script type=\"text/javascript\">\nvar _smartsupp = _smartsupp || {};\n_smartsupp.key = 'f5016d59ce62642293b44226afb7962a26575390';\nwindow.smartsupp||(function(d) {\n  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];\n  s=d.getElementsByTagName('script')[0];c=d.createElement('script');\n  c.type='text/javascript';c.charset='utf-8';c.async=true;\n  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);\n})(document);\n</script>\n<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>\n",
+      "liveChatProvider": "smartsupp",
+      "isEnabled": true
+    }
+  },
+  "orders": [
+    {
+      "id": 1758551344725,
+      "createdAt": "2025-09-22T14:29:04.725Z",
+      "email": "josephineilenre7@gmail.com",
+      "delivery": {
+        "country": "Nigeria",
+        "firstName": "josephine",
+        "lastName": "ilenre",
+        "company": "lion adventure limited",
+        "address": "78 kings avenue",
+        "apartment": "789 stanley avenue",
+        "city": "lokoja",
+        "state": "kogi",
+        "zip": "311056",
+        "phone": "08109793152"
+      },
+      "paymentMethod": "flutterwave",
+      "items": [
+        {
+          "id": 1751557761427,
+          "name": "beauty",
+          "price": 50000,
+          "quantity": 1,
+          "color": "nude color",
+          "image": "/uploads/1751557761402.jpg"
+        }
+      ],
+      "subtotal": 50000,
+      "note": ""
+    }
+  ]
+}
