@@ -1,0 +1,45 @@
+🚀 CPANEL DEPLOYMENT CHECKLIST
+================================
+
+📦 STEP 1: UPLOAD FILES
+- Extract allure-fashion-cpanel.zip to public_html/
+- Ensure all files are in the root of public_html (not in a subfolder)
+
+⚙️ STEP 2: CPANEL CONFIGURATION
+1. Go to "Node.js" in cPanel
+2. Click "Create Application"
+3. Set Node.js version: 16.x or higher
+4. Application root: public_html
+5. Application URL: your-domain.com
+6. Application startup file: server.js
+7. Click "Create"
+
+📚 STEP 3: INSTALL DEPENDENCIES
+1. Open "Terminal" in cPanel
+2. Navigate to public_html: cd public_html
+3. Run: npm install
+4. Wait for installation to complete
+
+🚀 STEP 4: START APPLICATION
+1. In Node.js section, click "Start" next to your app
+2. Your app should now be running!
+
+🌐 ACCESS YOUR STORE
+- Frontend: https://your-domain.com
+- Admin Panel: https://your-domain.com/admin/login
+
+📁 IMPORTANT FILES INCLUDED:
+✅ server.js - Main application server
+✅ package.json - Dependencies configuration
+✅ db.json - Database with your products
+✅ dist/ - Built React frontend
+✅ public/ - Static files and uploads
+✅ .htaccess - Apache configuration
+✅ DEPLOYMENT.md - Detailed guide
+
+🔧 TROUBLESHOOTING:
+- If app won't start: Check Node.js version (16+)
+- If images don't load: Check public/uploads/ permissions
+- If API errors: Ensure server.js is the startup file
+
+Need help? Check DEPLOYMENT.md for detailed instructions!

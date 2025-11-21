@@ -1,0 +1,19 @@
+{
+  "name": "allure-fashion-app",
+  "version": "1.0.0",
+  "description": "Allure Fashion E-commerce Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^2.0.1",
+    "cors": "^2.8.5",
+    "body-parser": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

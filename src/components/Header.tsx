@@ -50,7 +50,7 @@ const Header = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const res = await axios.get('http://localhost:3001/api/categories');
+        const res = await axios.get('/api/categories');
         setCategories(res.data);
       } catch (err) {
         setCategories({});

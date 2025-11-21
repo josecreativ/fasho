@@ -55,7 +55,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category }) => {
       setLoading(true);
       try {
         // Build the API URL
-        let url = `http://localhost:3001/api/products?category=${category}`;
+        let url = `/api/products?category=${category}`;
         if (selectedSubCategory) {
           url += `&subCategory=${selectedSubCategory}`;
         }
@@ -63,7 +63,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ category }) => {
         // Fetch products and categories in parallel
         const [productsRes, categoriesRes] = await Promise.all([
           axios.get(url),
-          axios.get('http://localhost:3001/api/categories')
+          axios.get('/api/categories')
         ]);
         
         setProducts(productsRes.data);

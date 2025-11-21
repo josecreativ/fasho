@@ -96,7 +96,7 @@ const SearchModal = ({ open, onClose }: { open: boolean; onClose: () => void }) 
                             img.url ? (
                               <img
                                 key={idx}
-                                src={`http://localhost:3001${img.url}`}
+                                src={img.url}
                                 alt={product.name}
                                 className="w-8 h-10 object-cover rounded"
                               />

@@ -27,7 +27,7 @@ const CheckoutPage = () => {
         <div className="divide-y">
           {cart.map((item, idx) => (
             <div key={idx} className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 py-3 sm:py-6">
-              <img src={`http://localhost:3001${item.image}`} alt={item.name} className="w-20 h-20 sm:w-28 sm:h-28 object-cover rounded" />
+              <img src={item.image} alt={item.name} className="w-20 h-20 sm:w-28 sm:h-28 object-cover rounded" />
               <div className="flex-1 w-full">
                 <h3 className="font-semibold text-sm sm:text-base mb-1">{item.name}</h3>
                 <div className="flex items-center gap-1 sm:gap-2 mb-1">

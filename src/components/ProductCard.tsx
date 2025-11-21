@@ -66,7 +66,7 @@ const ProductCard = ({ product, addToCart }: ProductCardProps) => {
       <div className="relative aspect-square overflow-hidden bg-gray-100">
         {selectedColor && selectedColor.images && selectedColor.images[0] && selectedColor.images[0].url ? (
           <img
-            src={`http://localhost:3001${selectedColor.images[0].url}`}
+            src={selectedColor.images[0].url}
             alt={product.name}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />

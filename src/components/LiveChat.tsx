@@ -8,7 +8,7 @@ const LiveChat: React.FC = () => {
   } | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  const apiBase = (import.meta as any).env?.DEV ? 'http://localhost:3001' : '';
+  const apiBase = '';
 
   useEffect(() => {
     const fetchLiveChatConfig = async () => {

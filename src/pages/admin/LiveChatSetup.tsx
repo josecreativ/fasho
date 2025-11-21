@@ -8,7 +8,7 @@ const LiveChatSetup: React.FC = () => {
   const [saving, setSaving] = useState(false);
   const [status, setStatus] = useState('');
 
-  const apiBase = (import.meta as any).env?.DEV ? 'http://localhost:3001' : '';
+  const apiBase = '';
 
   const liveChatProviders = [
     { value: 'tawk', label: 'Tawk.to' },

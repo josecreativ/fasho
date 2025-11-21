@@ -23,7 +23,7 @@ const PaymentPage = () => {
   const [paymentMethod, setPaymentMethod] = useState<'card' | 'flutterwave' | 'paystack' | 'bank'>('card');
   const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState('');
-  const apiBase = (import.meta as any).env?.DEV ? 'http://localhost:3001' : '';
+  const apiBase = '';
   const [paystackPublicKey, setPaystackPublicKey] = useState('');
   const [flutterwavePublicKey, setFlutterwavePublicKey] = useState('');
 
@@ -313,7 +313,7 @@ const PaymentPage = () => {
           <div className="divide-y mb-4">
             {cart.map((item, idx) => (
               <div key={idx} className="flex items-center gap-4 py-4">
-                <img src={`http://localhost:3001${item.image}`} alt={item.name} className="w-16 h-16 object-cover rounded" />
+                <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded" />
                 <div className="flex-1">
                   <div className="font-medium text-sm">{item.name}</div>
                   <div className="text-xs text-gray-500">{item.color}</div>

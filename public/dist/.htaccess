@@ -1,0 +1,27 @@
+npm  # Enable RewriteEngine
+RewriteEngine On
+
+# Redirect all requests to index.html except for existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+# Allow CORS for API and uploads
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+  Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+  Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+</IfModule>
+
+# Proxy API and uploads to Cyclic backend
+<IfModule mod_proxy.c>
+  ProxyPass /api https://your-app-name.cyclic.app/api
+  ProxyPassReverse /api https://your-app-name.cyclic.app/api
+
+  ProxyPass /uploads https://your-app-name.cyclic.app/uploads
+  ProxyPassReverse /uploads https://your-app-name.cyclic.app/uploads
+</IfModule>
+
+# Increase upload size limits
+php_value upload_max_filesize 20M
+php_value post_max_size 20M

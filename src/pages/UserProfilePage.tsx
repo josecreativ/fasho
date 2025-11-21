@@ -82,7 +82,7 @@ const UserProfilePage: React.FC = () => {
 
   const fetchUserOrders = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/orders');
+      const response = await fetch('/api/orders');
       if (response.ok) {
         const allOrders = await response.json();
         // Filter orders for current user
@@ -212,7 +212,7 @@ const UserProfilePage: React.FC = () => {
               <div className="space-y-2">
                 {order.items.map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3 p-2 bg-gray-50 rounded">
-                    <img src={`http://localhost:3001${item.image}`} alt={item.name} className="w-12 h-12 object-cover rounded" />
+                    <img src={item.image} alt={item.name} className="w-12 h-12 object-cover rounded" />
                     <div className="flex-1">
                       <p className="font-medium text-sm sm:text-base">{item.name}</p>
                       <p className="text-xs sm:text-sm text-gray-600">Qty: {item.quantity} • {item.color}</p>

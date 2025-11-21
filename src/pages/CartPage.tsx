@@ -25,7 +25,7 @@ const CartPage = () => {
             <div className="divide-y">
               {cart.map((item, idx) => (
                 <div key={idx} className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 py-3 sm:py-6">
-                  <img src={`http://localhost:3001${item.image}`} alt={item.name} className="w-24 h-24 sm:w-40 sm:h-40 object-cover rounded" />
+                  <img src={item.image} alt={item.name} className="w-24 h-24 sm:w-40 sm:h-40 object-cover rounded" />
                   <div className="flex-1 w-full">
                     <h3 className="font-semibold text-base sm:text-lg mb-1 sm:mb-2">{item.name}</h3>
                     <div className="flex items-center gap-2 sm:gap-4 mb-1 sm:mb-2">

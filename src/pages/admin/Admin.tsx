@@ -33,7 +33,7 @@ interface CategoryData {
 
 const Admin = () => {
   const navigate = useNavigate();
-  const apiBase = (import.meta as any).env?.DEV ? 'http://localhost:3001' : '';
+  const apiBase = '';
   const [products, setProducts] = useState<Product[]>([]);
   const [showProductForm, setShowProductForm] = useState(false);
   const [editProductId, setEditProductId] = useState<number | null>(null);
@@ -283,9 +283,9 @@ const Admin = () => {
     });
     try {
       if (editProductId) {
-        await axios.put(`http://localhost:3001/api/products/${editProductId}`, formData, { headers: { 'Content-Type': 'multipart/form-data' } });
+        await axios.put(`/api/products/${editProductId}`, formData, { headers: { 'Content-Type': 'multipart/form-data' } });
       } else {
-        await axios.post('http://localhost:3001/api/products', formData, { headers: { 'Content-Type': 'multipart/form-data' } });
+        await axios.post('/api/products', formData, { headers: { 'Content-Type': 'multipart/form-data' } });
       }
       setShowProductForm(false);
       fetchProducts(); // reload products to get updated images
@@ -298,7 +298,7 @@ const Admin = () => {
   const handleDelete = async (productId: number) => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       try {
-        await axios.delete(`http://localhost:3001/api/products/${productId}`);
+        await axios.delete(`/api/products/${productId}`);
         fetchProducts();
       } catch (error) {
         console.error('Error deleting product:', error);
@@ -311,7 +311,7 @@ const Admin = () => {
     const name = newSubCategory[mainCategory];
     if (!name || !name.trim()) return;
     try {
-      const res = await axios.post('http://localhost:3001/api/sub-category', { 
+      const res = await axios.post('/api/sub-category', { 
         mainCategory,
         name
       });
@@ -325,7 +325,7 @@ const Admin = () => {
   const handleDeleteSubCategory = async (mainCategory: string, name: string) => {
     if (!window.confirm(`Delete sub-category "${name}" from ${mainCategory}?`)) return;
     try {
-      const res = await axios.delete('http://localhost:3001/api/sub-category', { 
+      const res = await axios.delete('/api/sub-category', { 
         data: { mainCategory, name } 
       });
       setCategories(res.data);
@@ -360,7 +360,7 @@ const Admin = () => {
   const deleteUser = async (userId: number) => {
     if (!window.confirm('Are you sure you want to delete this user?')) return;
     try {
-      await axios.delete(`http://localhost:3001/api/users/${userId}`);
+      await axios.delete(`/api/users/${userId}`);
       fetchUsers();
     } catch (err) {
       alert('Failed to delete user.');
@@ -537,7 +537,7 @@ const Admin = () => {
                 <tr key={product.id} className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900 flex items-center">
                     {product.colors[0]?.images && product.colors[0].images[0] && product.colors[0].images[0].url ? (
-                      <img src={`http://localhost:3001${product.colors[0].images[0].url}`} alt={product.name} className="w-10 h-10 rounded-md mr-4 object-cover" />
+                      <img src={product.colors[0].images[0].url} alt={product.name} className="w-10 h-10 rounded-md mr-4 object-cover" />
                     ) : (
                       <div style={{width: 40, height: 40, background: '#eee', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#aaa', fontSize: 10, borderRadius: 8, marginRight: 16}}>
                         No Image
@@ -676,7 +676,7 @@ const Admin = () => {
                               {/* Previews for existing images */}
                               {color.images && color.images.map((img, imgIdx) => img.url && (
                                 <div key={imgIdx} className="relative">
-                                  <img src={`http://localhost:3001${img.url}`} alt="existing" className="w-16 h-16 object-cover rounded" />
+                                  <img src={img.url} alt="existing" className="w-16 h-16 object-cover rounded" />
                                   <button type="button" onClick={() => handleRemoveExistingImage(idx, imgIdx)} className="absolute top-0 right-0 bg-white rounded-full p-1 text-xs text-red-500">&times;</button>
                                 </div>
                               ))}

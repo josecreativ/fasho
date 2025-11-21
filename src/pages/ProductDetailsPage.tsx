@@ -104,7 +104,7 @@ const ProductDetailsPage = () => {
           <div className="flex flex-col md:flex-row-reverse gap-2 sm:gap-4">
             <div className="flex-1">
               {mainImage ? (
-                <img src={`http://localhost:3001${mainImage}`} alt={product.name} className="w-full h-auto object-cover rounded-lg shadow-md" />
+                <img src={mainImage} alt={product.name} className="w-full h-auto object-cover rounded-lg shadow-md" />
               ) : (
                 <div className="w-full aspect-square bg-gray-200 flex items-center justify-center rounded-lg">No Image</div>
               )}
@@ -116,7 +116,7 @@ const ProductDetailsPage = () => {
                   className={`w-12 h-12 sm:w-20 sm:h-20 flex-shrink-0 border-2 rounded-md overflow-hidden ${selectedImageIdx === idx ? 'border-black' : 'border-transparent'}`}
                   onClick={() => setSelectedImageIdx(idx)}
                 >
-                  <img src={`http://localhost:3001${img.url}`} alt={`thumbnail-${idx}`} className="w-full h-full object-cover" />
+                  <img src={img.url} alt={`thumbnail-${idx}`} className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>

@@ -26,7 +26,7 @@ const Index = () => {
       setLoading(true);
       try {
         // Only fetch products marked for the home page
-        const response = await axios.get('http://localhost:3001/api/products?home=true');
+        const response = await axios.get('/api/products?home=true');
         setProducts(response.data);
       } catch (error) {
         setProducts([]);
